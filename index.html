@@ -99,51 +99,54 @@
     </style>
 </head>
 <body>
+   
+    <div>
     <!-- Logo -->
-    <img name="logo" src="./imagens/LOGO CENTRAL DEGRADE - PNG.png" alt="Logo Central">
-
+    <img name="logo" src="./imagens/LOGO CENTRAL DEGRADE - PNG.png" alt="ERROR">
+    </div>
     <h1>Briefing para Cliente de Social Media e Design</h1>
-    
+
+<form action="https://formspree.io/f/myzkwqro" method="post">
     <!-- INFORMAÇÕES GERAIS -->
     <h2>Informações Gerais</h2>
     <label for="nomeDaEmpresa">Digite o nome da empresa</label> <br>
-    <input placeholder="Nome da Empresa" required name="nomeDaEmpresa" id="nomeDaEmpresa" type="text"> <br>
+    <input placeholder="Nome da Empresa" required name="Nome Da Empresa" id="nomeDaEmpresa" type="text"> <br>
 
     <label for="nomeDoResponsavel">Digite o nome do responsável pelo briefing</label> <br>
-    <input placeholder="Nome do Responsável" required name="nomeDoResponsavel" id="nomeDoResponsavel" type="text"> <br>
+    <input placeholder="Nome do Responsável" required name="Nome Do Responsavel" id="nomeDoResponsavel" type="text"> <br>
 
     <label for="telefone">Digite um número de telefone</label> <br>
-    <input placeholder="Telefone" required name="telefone" id="telefone" type="number"> <br>
+    <input placeholder="Telefone" required name="Telefone" id="telefone" type="number"> <br>
 
     <label for="email">Digite um email</label> <br>
-    <input placeholder="Email" required name="email" id="email" type="email"> <br>
+    <input placeholder="Email" required name="Email" id="email" type="email"> <br>
 
     <label for="site">Digite o site da empresa</label> <br>
-    <input placeholder="Site da empresa" name="site" id="site" type="text"> <br>
+    <input placeholder="Site da empresa" name="Site" id="site" type="text"> <br>
 
     <!-- SOBRE A EMPRESA -->
     <h2>Sobre a Empresa</h2>
     <label for="historiaDaEmpresa">Qual é a história da empresa? Quando e como ela foi fundada?</label> <br>
-    <textarea placeholder="Digite algo..." rows="5" required name="historiaDaEmpresa" id="historiaDaEmpresa"></textarea> <br>
+    <textarea placeholder="Digite algo..." rows="5" required name="Historia Da Empresa" id="historiaDaEmpresa"></textarea> <br>
     
     <label for="missaoDaEmpresa">Missão, Visão e Valores: Quais são os principais objetivos e princípios que guiam a empresa?</label> <br>
-    <textarea placeholder="Digite algo..." rows="5" required name="missaoDaEmpresa" id="missaoDaEmpresa"></textarea> <br>
+    <textarea placeholder="Digite algo..." rows="5" required name="Missao Da Empresa" id="missaoDaEmpresa"></textarea> <br>
     
     <label for="publicoAlvo">Público-Alvo: Quem são os clientes principais (perfil demográfico, comportamentos, preferências)?</label> <br>
-    <textarea placeholder="Digite algo..." rows="5" required name="publicoAlvo" id="publicoAlvo"></textarea> <br>
+    <textarea placeholder="Digite algo..." rows="5" required name="Publico Alvo" id="publicoAlvo"></textarea> <br>
     
     <label for="concorrencia">Concorrência: Quais são os concorrentes diretos e indiretos? Algum diferencial em relação a eles?</label> <br>
-    <textarea placeholder="Digite algo..." rows="5" required name="concorrencia" id="concorrencia"></textarea> <br>
+    <textarea placeholder="Digite algo..." rows="5" required name="Concorrencia" id="concorrencia"></textarea> <br>
     
     <!-- PRESENÇA ONLINE E POSICIONAMENTO -->
     <h2>Presença Online e Posicionamento</h2>
     <p>Redes Sociais Atuais:</p>
     <ul id="RedesSociais">
-        <li><input value="SIM" name="linkedin" type="checkbox"> Linkedin</li>
-        <li><input value="SIM" name="instagram" type="checkbox"> Instagram</li>
-        <li><input value="SIM" name="facebook" type="checkbox"> Facebook</li>
-        <li><input value="SIM" name="tiktok" type="checkbox"> Tiktok</li>
-        <li><input value="SIM" name="nenhuma" type="checkbox"> Nenhuma</li>
+        <li><input value="SIM" name="Linkedin" type="checkbox"> Linkedin</li>
+        <li><input value="SIM" name="Instagram" type="checkbox"> Instagram</li>
+        <li><input value="SIM" name="Facebook" type="checkbox"> Facebook</li>
+        <li><input value="SIM" name="Tiktok" type="checkbox"> Tiktok</li>
+        <li><input value="SIM" name="Nenhuma" type="checkbox"> Nenhuma</li>
     </ul>
     <label for="conteudoAtual">Conteúdo Atual: O que já é produzido atualmente? Há algum exemplo de post ou campanha que funcionou bem?</label> <br>
     <textarea rows="5" placeholder="Digite algo" required name="conteudoAtual" id="conteudoAtual"></textarea> <br>
@@ -152,71 +155,72 @@
     <h2>Objetivo e Estratégia</h2>
     <p>Objetivos da Presença Online: Quais são os principais objetivos?</p>
     <ul id="Estratégia">
-        <li><input value="SIM" name="aumentarSeguidores" type="checkbox"> Aumentar Seguidores</li>
-        <li><input value="SIM" name="gerarLeads" type="checkbox"> Gerar Leads</li>
-        <li><input value="SIM" name="engajarClientes" type="checkbox"> Engajar Clientes</li>
-        <li><input value="SIM" name="fortalecerAMarca" type="checkbox"> Fortalecer a Marca</li>
-        <li><input value="SIM" name="outros" type="checkbox"> Outros</li>
+        <li><input value="SIM" name="Aumentar Seguidores" type="checkbox"> Aumentar Seguidores</li>
+        <li><input value="SIM" name="Gerar Leads" type="checkbox"> Gerar Leads</li>
+        <li><input value="SIM" name="Engajar Clientes" type="checkbox"> Engajar Clientes</li>
+        <li><input value="SIM" name="Fortalecer a Marca" type="checkbox"> Fortalecer a Marca</li>
+        <li><input value="SIM" name="Outros" type="checkbox"> Outros</li>
     </ul>
     
     <!-- CRONOGRAMA DE APROVAÇÃO -->
     <h2>Cronograma de Aprovação</h2>
     <label for="postsFeed">Quantos posts semanais de feed deseja?</label>
     <ul>
-        <li><input id="postFeed" value="1" name="postsFeed" type="radio"> 1</li>
-        <li><input id="postFeed" value="2" name="postsFeed" type="radio"> 2</li>
-        <li><input id="postFeed" value="3" name="postsFeed" type="radio"> 3</li>
+        <li><input id="postFeed" value="1" name="Posts no Feed" type="radio"> 1</li>
+        <li><input id="postFeed" value="2" name="Posts no Feed" type="radio"> 2</li>
+        <li><input id="postFeed" value="3" name="Posts no Feed" type="radio"> 3</li>
     </ul>
     
     <label for="postsStories">Quantos posts semanais de stories deseja?</label>
     <ul>
-        <li><input id="postStories" value="1" name="postsStories" type="radio"> 1</li>
-        <li><input id="postStories" value="2" name="postsStories" type="radio"> 2</li>
-        <li><input id="postStories" value="3" name="postsStories" type="radio"> 3</li>
+        <li><input id="postStories" value="1" name="Posts no Stories" type="radio"> 1</li>
+        <li><input id="postStories" value="2" name="Posts no Stories" type="radio"> 2</li>
+        <li><input id="postStories" value="3" name="Posts no Stories" type="radio"> 3</li>
     </ul>
     
     <label for="responsavelAprovacao">Quem será responsável por aprovar os materiais?</label> <br>
-    <input placeholder="Nome do Responsável" name="responsavelAprovacao" id="responsavelAprovacao" type="text"> <br>
+    <input placeholder="Nome do Responsável" name="Responsavel pela Aprovacao" id="responsavelAprovacao" type="text"> <br>
     
     <!-- REFERÊNCIAS E INSPIRAÇÕES -->
     <h2>Referências e Inspirações</h2>
     <label for="referencias">Há exemplos de perfis ou marcas que servem como inspiração?</label>
     <ul>
-        <li><input value="sim" name="referenciasSim" type="radio"> Sim</li>
-        <li><input value="nao" name="referenciasNao" type="radio"> Não</li>
+        <li><input value="sim" name="Referencias" type="radio"> Sim</li>
+        <li><input value="nao" name="Referencias" type="radio"> Não</li>
     </ul>
     
     <label for="naoFazer">Não Fazer: Algum estilo ou tema que vocês não gostariam de abordar?</label> <br>
-    <textarea rows="5" placeholder="Digite algo..." required name="naoFazer" id="naoFazer"></textarea> <br>
+    <textarea rows="5" placeholder="Digite algo..." required name="Nao Fazer" id="naoFazer"></textarea> <br>
 
     <!-- RECURSOS E MATERIAL DISPONIVEL -->
     <h2>Recursos e Material Disponível</h2>
     <label for="material">A empresa possui imagens, logotipos ou materiais próprios para serem utilizados?</label>
     <ul>
-        <li><input value="sim" name="materialSim" type="radio"> Sim</li>
-        <li><input value="nao" name="msterialNao" type="radio"> Não</li>
+        <li><input value="sim" name="Tem material" type="radio"> Sim</li>
+        <li><input value="nao" name="Tem material" type="radio"> Não</li>
     </ul>
     <label for="producaoConteudo">Existe possibilidade de criar vídeos ou tirar fotos com profissionais?</label>
     <ul>
-        <li><input value="sim" name="producaoSim" type="radio"> Sim</li>
-        <li><input value="nao" name="producaoNao" type="radio"> Não</li>
+        <li><input value="sim" name="Pode produzir conteudo" type="radio"> Sim</li>
+        <li><input value="nao" name="Pode produzir conteudo" type="radio"> Não</li>
     </ul>
     
     <!-- RESULTADOS -->
     <h2>Resultados</h2>
     <p>Como vocês pretendem medir os resultados do nosso trabalho?</p>
     <ul id="Resultados">
-        <li><input value="SIM" name="alcance" type="checkbox"> Alcance</li>
-        <li><input value="SIM" name="engajamento" type="checkbox"> Engajamento</li>
-        <li><input value="SIM" name="vendas" type="checkbox"> Vendas</li>
+        <li><input value="SIM" name="Alcance" type="checkbox"> Alcance</li>
+        <li><input value="SIM" name="Engajamento" type="checkbox"> Engajamento</li>
+        <li><input value="SIM" name="Vendas" type="checkbox"> Vendas</li>
     </ul>
 
     <!-- INFORMAÇÕES FINAIS -->
      <h2>Informações Finais</h2>
     <label for="naoFazer">Algo mais que gostariam de acrescentar ou destacar?</label> <br>
-    <textarea rows="5" placeholder="Digite algo..." required name="outrasInformacoes" id="outrasInformacoesr"></textarea> <br>
-
+    <textarea rows="5" placeholder="Digite algo..." required name="Outras Informacoes" id="outrasInformacoesr"></textarea> <br>
+    
     <!-- BOTÃO DE ENVIO -->
     <button type="submit">Enviar Briefing</button>
+</form>
 </body>
 </html>
